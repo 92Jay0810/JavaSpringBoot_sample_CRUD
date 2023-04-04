@@ -1,0 +1,6 @@
+2023-01-05 18:07:07 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ID[*] FIRST_NAME"; expected "INSERT"; SQL statement:
+ID FIRST_NAME [42001-200]
+2023-01-05 18:08:52 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMERS" not found; SQL statement:
+DELETE FROM customers WHERE id=1 [42102-200]
